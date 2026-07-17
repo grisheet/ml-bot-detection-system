@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Models and data (large binary files)
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+# Keep JSON results and metadata
+!models/training_results.json
+!models/feature_cols.json
+!models/best_model_name.txt
+
+# Dataset (generated, not needed in repo)
+data/sample_data.csv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Logs
+*.log
+logs/
+
+# Type checking
+.mypy_cache/
